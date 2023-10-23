@@ -29,7 +29,7 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: JSON raw data {content: "aaa", date: "2023-10-20T11:11:58.903Z"}
+    server-->>browser: JSON data {content: "aaa", date: "2023-10-20T11:11:58.903Z"}
     deactivate server
      Note right of browser: The browser executes the callback function that renders the notes
 ```
